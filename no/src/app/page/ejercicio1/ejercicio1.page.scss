@@ -1,0 +1,40 @@
+ion-card {
+  background-color: #ffffff;
+  animation: color-change 2s linear infinite;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: #ffffff;
+  }
+
+  25% {
+    background-color: #ff0000;
+  }
+
+  50% {
+    background-color: #00ff00;
+  }
+
+  75% {
+    background-color: #ffffff;
+  }
+
+  100% {
+    background-color: #ff0000;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  ion-card {
+    background-color: #000000;
+    animation: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  ion-card {
+    background-color: #00ff00;
+    animation: none;
+  }
+}

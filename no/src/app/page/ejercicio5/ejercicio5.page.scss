@@ -1,0 +1,18 @@
+ion-row {
+    display: flex;
+  }
+  
+  ion-col {
+    flex: 1;
+  }
+  
+  @media screen and (max-width: 500px) {
+    ion-row {
+      flex-direction: column;
+    }
+  
+    ion-col {
+      flex: 1 100%;
+    }
+  }
+  
